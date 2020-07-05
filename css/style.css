@@ -1,0 +1,230 @@
+:root {
+    --main-font: "Roboto" sans-serif;
+    --secondary-font: "Raleway" sans-serif; 
+    --title-dark-theme-color: #ffffff;
+    --title-light-theme-color: #212121;
+    --text-title-dark-theme-color: #FFFFFF; 
+    --text-title-light-theme-color: #757575;
+    --accent-color: #2196F3;
+}
+
+body {
+background-color: #E5E5E5;
+font-family: var(--main-font)
+font-size: 14px;
+color: var(--text-title-light-theme-color);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+/*HEADER*/
+
+.navigation-list-link,
+.header-tel,
+.header-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--title-light-theme-color);
+}
+
+.navigation-list-link:hover, 
+.navigation-list-link:focus,
+.header-tel:hover,
+.header-tel:focus,
+.header-link:hover,
+.header-link:focus {
+    color: var(--accent-color);
+}
+
+.header-tel,
+.header-link{
+color: var(--text-title-light-theme-color);}
+
+
+}
+
+.modal-btn {
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: var(--text-title-dark-theme-color);
+}
+.modal-btn:hover,
+.modal-btn:focus{
+    background-color: var(--accent-color);
+    color: #ffffff;
+}
+
+/*LOGOTIPE UP DOWN*/
+.logo-blye {
+font-family: var(--secondary-font);
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--accent-color);
+}
+
+.logo-black {
+font-family: var(--secondary-font);
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #000000; 
+}
+.logo-white {
+font-family: var(--secondary-font);
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--text-title-dark-theme-color);
+}
+/*HERO SECTION*/
+.herotitle {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--text-title-dark-theme-color);
+}
+
+
+
+/*Секция1*/
+
+.description {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--text-title-light-theme-color);
+}
+.subtitle {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--title-light-theme-color);
+}
+
+/*Ceкция2*/
+
+.title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-light-theme-color);
+}
+
+.description-list {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--text-title-dark-theme-color);
+}
+
+/*Ceкция3*/
+
+.team-member-name {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-light-theme-color);
+}
+.job-description {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--text-title-light-theme-color);
+}
+.social-item-links:hover,
+.social-item-links:focus { 
+      background-color: var(--accent-color);
+color: #ffffff;
+}
+
+/* Футор*/
+
+.address {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--text-title-dark-theme-color);
+}
+
+.footer-link, 
+.footer-tel {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+.invitation {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.42;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--text-title-dark-theme-color);
+}
+
+/*Портфолио*/
+
+.navigation-filter-list-link {
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-light-theme-color);
+}
+.navigation-filter-list-link:hover,
+.navigation-filter-list-link:focus {
+    background-color: var(--accent-color);
+color: #ffffff;
+}
+.name-project {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--title-light-theme-color);
+}
+.job-title {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: var(--text-title-light-theme-color);
+}
