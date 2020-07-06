@@ -1,6 +1,6 @@
 :root {
-    --main-font: "Roboto" sans-serif;
-    --secondary-font: "Raleway" sans-serif; 
+    --main-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif; 
     --title-dark-theme-color: #ffffff;
     --title-light-theme-color: #212121;
     --text-title-dark-theme-color: #FFFFFF; 
@@ -28,12 +28,14 @@ color: var(--text-title-light-theme-color);
 .navigation-list-link,
 .header-tel,
 .header-link {
+font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--title-light-theme-color);
 }
+
 
 .navigation-list-link:hover, 
 .navigation-list-link:focus,
@@ -184,6 +186,7 @@ color: var(--text-title-dark-theme-color);
 
 .footer-link, 
 .footer-tel {
+font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -210,10 +213,21 @@ letter-spacing: 0.03em;
 color: var(--title-light-theme-color);
 }
 .navigation-filter-list-link:hover,
-.navigation-filter-list-link:focus {
+.navigation-filter-list-link:focus,
+.hidden-information:hover,
+.hidden-information:focus {
     background-color: var(--accent-color);
 color: #ffffff;
 }
+
+.hidden-information {
+font-weight: normal;
+font-size: 18px;
+line-height: 1.55;
+letter-spacing: 0.03em;
+color: var(--text-title-dark-theme-color);
+}
+
 .name-project {
 font-weight: 700;
 font-size: 18px;
@@ -227,4 +241,40 @@ font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.03em;
 color: var(--text-title-light-theme-color);
+}
+
+/*Студия*/
+.feedback-form {
+font-weight: 700;
+font-size: 20px;
+line-height: 1.15;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-light-theme-color);
+}
+.name:hover,
+.name:focus,
+.contact-address:hover,
+.contact-address:focus {
+color: var(--accent-color);
+}
+.name,
+.contact-address,
+.comment {
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.01em;
+color: var(--text-title-light-theme-color);
+}
+ .modal-btn {
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+background-color: var(--accent-color);
+color: var(--text-title-dark-theme-color);
 }
